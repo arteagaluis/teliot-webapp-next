@@ -4,7 +4,7 @@ import Page from '../app/page';
 
 describe('Page', () => {
   it('renders a heading', () => {
-    // render(<Page />);
+    render(<Page />);
 
     screen.debug();
   });
